@@ -20,6 +20,13 @@ const recetas = [
     tiempo: 30,
     categoria: "desayuno",
   },
+  {
+    id: 6,
+    nombre: 'Tucumanas',
+    categoria: 'desayuno',
+    ingredientes: ['carne molida', 'papa', 'huevo duro', 'cebolla', 'ají'],
+    descripcion: 'Empanadas fritas crujientes, típicas de Tarija y Sucre.'
+  },
 ];
 
 module.exports = { recetas };
