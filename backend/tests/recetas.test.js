@@ -4,7 +4,7 @@ const app = require("../src/app");
 describe("API Recetas", () => {
   test("GET /api/recetas - retorna lista de recetas", async () => {
     const res = await request(app).get("/api/recetas");
-    expect(res.statusCode).toBe(999);
+    expect(res.statusCode).toBe(200);
     expect(Array.isArray(res.body)).toBe(true);
     expect(res.body.length).toBeGreaterThan(0);
   });
